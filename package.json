@@ -1,0 +1,24 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "ini adalah learning API Automation saya",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurhikma1889/API-Automation.git"
+  },
+  "author": "Hikmah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurhikma1889/API-Automation/issues"
+  },
+  "homepage": "https://github.com/nurhikma1889/API-Automation#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
