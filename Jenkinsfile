@@ -11,7 +11,7 @@ pipeline {
 
         stage('Running Test'){
             steps{
-                sh "npm run test-api"
+                sh "npm run test"
             }
 
             post{
