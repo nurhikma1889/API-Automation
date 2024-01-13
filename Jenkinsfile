@@ -11,7 +11,7 @@ pipeline {
 
         stage('Running Test'){
             steps{
-                sh "npm run test"
+                sh "npm run test-api"
             }
 
             post{
@@ -32,6 +32,6 @@ pipeline {
     post{
         always{
             echo "Finish"
-        }
-    }
+        }
+    }
 }
