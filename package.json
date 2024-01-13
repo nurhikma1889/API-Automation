@@ -4,7 +4,7 @@
   "description": "ini adalah learning API Automation saya",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha test/**/*.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=api_automation_report"
+    "test": "npx mocha tests/**/*.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=api_automation_report"
   },
   "repository": {
     "type": "git",
